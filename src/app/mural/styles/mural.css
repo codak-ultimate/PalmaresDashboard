@@ -1,0 +1,138 @@
+:root {
+  --bgcolor-main: #659633;
+}
+
+.main-container {
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 1vh;
+  overflow-x: hidden;
+}
+.mark {
+  position: relative;
+  width: 100%;
+  min-height: 15vh;
+  z-index: 1;
+}
+.mark-container{
+  position:absolute;
+  top: 57vw;
+  width: 100%;
+}
+.menu-anun {
+  width: 100%;
+  position: absolute;
+  font-family: "candarab";
+  font-size: 5vw;
+  display: flex;
+  align-items: centers;
+  position: relative;
+  left: 77.5%;
+  bottom: 10vh;
+}
+.navigation {
+  position: absolute;
+  top: 80vw;
+  width: 100%;
+  height: 10vh;
+}
+.background{
+  position: absolute;
+  top: 90vw;
+  min-height: 80vh;
+  width: 100%;
+}
+.navigation .list-navigation {
+  width: 100%;
+  height: 10vh;
+  margin-bottom: 1vh;
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+}
+.navigation .list-navigation .item .link {
+  font-size: 4.9vw;
+  color: var(--bgcolor-main);
+  text-decoration: none;
+  font-family: "candarab", sans-serif;
+}
+.navigation .list-navigation .item .link:focus-within {
+  text-decoration: underline;
+}
+.list {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 25vw;
+  gap: 3px;
+  justify-content: center;
+  
+}
+.main-container-election {
+  width: 100%;
+  min-height: 70vh;
+  position: absolute;
+  top: 80%;
+}
+
+@media (max-width: 400px) {
+  .main-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: start;
+    gap: 2vh;
+  }
+}
+
+@media (max-width: 960px) {
+  .menu-anun {
+    width: 100%;
+    position: absolute;
+    font-family: "candarab";
+    font-size: 5vw;
+    display: flex;
+    align-items: centers;
+    position: relative;
+    left: 77.5%;
+    bottom: 7vh;
+  }
+}
+
+/*media queries para la seccion inferior del view*/
+@media (max-width:750px){
+  .main-container-election {
+    top: 90%;
+  }
+}
+@media (max-width:1039px){
+  .main-container-election {
+   
+    top: 98%;
+  }
+}
+@media (max-width:595px){
+  .main-container-election {
+   
+    top: 110%;
+  }
+}
+@media (max-width:488px){
+  .main-container-election {
+   
+    top: 130%;
+  }
+}
+@media (max-width:390px){
+  .main-container-election {
+   
+    top: 140%;
+  }
+}
+

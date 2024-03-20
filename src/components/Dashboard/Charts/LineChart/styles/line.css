@@ -1,0 +1,17 @@
+
+/* styles/line.css */
+.charts {
+    width: 100%; /* Esto es para asegurarse de que el gráfico ocupa el ancho completo del contenedor */
+   }
+   
+   /* Estilos para breakpoints específicos */
+   @media (min-width: 600px) {
+    .charts {
+       width: 100%; /* Cambia el ancho según sea necesario para breakpoints específicos */
+    }
+    
+   }
+
+   
+ 
+   

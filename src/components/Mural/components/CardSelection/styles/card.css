@@ -1,0 +1,79 @@
+.second-content-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .second-content {
+    border-radius: 23px;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    gap: 20px;
+    width: 80%;
+    overflow: hidden;
+    background-color: rgb(255, 255, 153);
+  }
+  .con-checks {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    gap: 50px;
+    justify-content: start;
+  }
+  .texts {
+    width: 70%;
+  }
+  .texts .par {
+    text-align: start;
+    width: 90%;
+    font-size: 4vw;
+    font-family: "candarab", sans-serif;
+  }
+  .lists {
+    padding: 25px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .header-service {
+    color: var(--bgcolor-main);
+    font-family: "candarab", sans-serif;
+    text-align: center;
+    font-size: 4.4vw;
+  }
+  .item-list {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .list-check {
+    
+    width: 40%;
+  }
+  .checks{
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .radio{
+    transform: scale(2.5);
+    
+  }
+  .radio1{
+    accent-color: green;
+  }
+  .radio2{
+    accent-color: yellow;
+  }
+  .radio3{
+    accent-color: red;
+  }

@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main-content{
+    width: 100%;
+    margin-top: 110px;
+}
+.content-row{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap:20px;
+    padding: 0 20px;
+    justify-content: space-around;
+    margin-top: -120px;
+
+}
+.de{
+    background-image: url("/pngwing.com (1).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    max-height: 50vh;
+}
+.line{
+    width: 50%;
+}
+.content{
+    background: rgba(0,0,0,.1);
+    border-radius: 10px;
+
+    backdrop-filter: blur(5px);
+}
+
+@media(max-width:839px){
+    .content-row{
+        width: 100%;
+        flex-direction: column;
+        gap: 50px;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+    .de{
+        width: 90%;
+    }
+    .line{
+        width: 100%;
+    }
+  
+}

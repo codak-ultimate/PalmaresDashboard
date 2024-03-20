@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  @font-face{
+    font-family: 'candara';
+    src:url('../../fonts/Candara/CANDARA.TTF') format('truetype');
+  }
+  @font-face{
+    font-family: 'candarab';
+    src:url('../../fonts/Candara/CANDARAB.TTF') format('truetype');
+  }
+  @font-face{
+    font-family: 'candarai';
+    src:url('../../fonts/Candara/CANDARAI.TTF') format('truetype');
+  }
+  @font-face{
+    font-family: 'candaraz';
+    src:url('../../fonts/Candara/CANDARAZ.TTF') format('truetype');
+  }
+  @font-face{
+    font-family: 'cunia';
+    src:url('../../fonts/Cunia/Cunia.ttf') format('truetype');
+  }

@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.car {
+  width: 100%;
+  border: 1.5px solid #000;
+  overflow-x: hidden;
+  max-height: 500px;
+
+}
+ .content-img {
+  width: 100%;
+  max-height: 500px;
+ 
+}
+.car .content-img img {
+  width:  100%;
+  height:  auto;
+  object-fit: cover;
+}
+.car .control-dots {
+  background: transparent;
+   display: flex;
+   justify-content: center;
+   gap: 5px;
+}
+.car .control-dots .dot {
+  transition: all 0.5s;
+  padding: 0px;
+margin: 0;
+  background-color: rgba(255, 255, 255,.6);
+}
+.car .control-dots .dot.selected{
+  width: 25px;
+  border-radius: 15px;
+  height: 10px;
+  background-color: rgb(255, 255, 255);
+
+} /*# sourceMappingURL=carousel.css.map */

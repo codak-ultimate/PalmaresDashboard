@@ -1,0 +1,22 @@
+
+.artice {
+    padding: 10vh 20px;
+    text-align: center;
+    font-size: 3vw;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    background-color: var(--bgcolor-main);
+    
+  }
+  .p1 {
+    font-family: "candara", sans-serif;
+    font-size: 4vw;
+  }
+  .p2 {
+    font-size: 4vw;
+  
+    font-family: "candarai", sans-serif;
+    color: rgb(216, 214, 214);
+  }

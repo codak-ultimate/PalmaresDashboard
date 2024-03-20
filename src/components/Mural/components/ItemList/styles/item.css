@@ -1,0 +1,69 @@
+
+.element-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .title-header {
+    font-family: "candara";
+    display: flex;
+    align-items: center;
+    text-align: start;
+    padding: 0 13px;
+    color: var(--bgcolor-main);
+  }
+  .spanish-header {
+    font-family: "candarab";
+    font-size: 4vw;
+  }
+  .eng-header {
+    font-family: "candarab";
+    color: #82b64e;
+    font-size: 4vw;
+  }
+  
+  .inf-info {
+    padding: 0 15px;
+    gap: 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+  
+    justify-content: space-between;
+  }
+  
+  .inf-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .text-trad-s {
+    font-family: "candarab", sans-serif;
+    font-size: 3vw;
+  
+    color: black;
+  }
+  .points {
+    flex: 1;
+    border-bottom: 2px dotted black;
+    font-size: 10px;
+  }
+  .guion {
+    font-family: "candarab", sans-serif;
+    font-size: 3vw;
+  }
+  .text-trad-e {
+    font-family: "candarab", sans-serif;
+    font-size: 3vw;
+  
+    color: rgb(98, 97, 97);
+  }
+  .desc {
+    font-size: 2vw;
+    font-family: "candarai", sans-serif;
+  }
+  .prize {
+    font-family: "cunia";
+    font-size: 3vw;
+  }
+  

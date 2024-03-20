@@ -1,0 +1,27 @@
+.logo {
+    display: flex;
+    flex-direction: column;
+    gap: 150px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  .mural-logo {
+    width: 60vw;
+    height: 40vh;
+  }
+  .palmares-logo {
+    width: 60vw;
+    height: 30vh;
+  }
+  @media (max-width: 400px) {
+    .mural-logo {
+      width: 50vw;
+      height: 30vh;
+    }
+    .palmares-logo {
+      width: 60vw;
+      height: 30vh;
+    }
+  }
+  

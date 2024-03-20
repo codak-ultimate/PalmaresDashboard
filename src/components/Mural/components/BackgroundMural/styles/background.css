@@ -1,0 +1,28 @@
+.menu-mural {
+    width: 70%;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .menu-mural .div {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    justify-content: space-between;
+    min-height: 40vh;
+  }
+  
+  .menu-mural .div .img {
+    position: relative;
+    min-height: auto;
+  }
+  .menu-mural .div .img1,
+  .img3 {
+    right: 30vw;
+    width: 80vw;
+  }
+  .menu-mural .div .img2,
+  .img4 {
+    left: 40vw;
+    width: 80vw;
+  }
